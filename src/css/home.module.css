@@ -1,0 +1,99 @@
+.mainHome {
+  padding-bottom: 2.5%;
+  background-color: #fefdfd;
+  border-radius: 6px;
+  margin: 40px 80px;
+  box-shadow: 0px 0px 6px rgb(147 147 147 / 40%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.camp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 1.5rem 0;
+  border-radius: 4px;
+}
+
+.head1 {
+  display: inline;
+  color: rgb(66, 66, 66);
+  font-size: 30px;
+  margin: 14px 0 20px;
+  font-weight: 500;
+}
+.new {
+  padding: 6px 10px 8px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background: black;
+}
+
+.newMain {
+  display: none;
+}
+
+.uploadHead {
+  margin: 0 0 15px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.upload {
+  color: #fff;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.cancel {
+  padding: 4px 10px;
+  color: black;
+  background-color: white;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.inp {
+  margin: 0 0 15px;
+}
+
+.error {
+  margin: 0 1.5rem 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: red;
+}
+
+.nodata {
+  color: rgb(66, 66, 66);
+  margin: 0 1.5rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .mainHome {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+  .camp {
+    flex-direction: column;
+  }
+}

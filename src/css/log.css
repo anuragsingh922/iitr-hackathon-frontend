@@ -1,0 +1,145 @@
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.log {
+  background-color: #fefdfd;
+  border-radius: 4px;
+  /* padding: 2% 1rem 4%; */
+  padding: 4rem 10rem;
+  align-items: center;
+  text-align: center;
+  /* margin: 3% 0 3%; */
+  box-shadow: 1px 1px 20px rgb(147, 147, 147);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head1 {
+  /* background: -webkit-linear-gradient(130deg, #00d301, #36c275 50.5%, #00a562); */
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  font-size: 2.4rem;
+  color: black;
+}
+
+input {
+  border-radius: 4px;
+  border: 1.4px solid black;
+  outline: none;
+  margin: 0.6rem 0;
+  padding: 0.75rem 0.75rem;
+  /* width: 93%; */
+  font-size: 1.1rem;
+}
+
+.or {
+  margin: 12px 0 0;
+  color: rgb(66, 66, 66);
+  font-weight: 500;
+  font-size: 17px;
+}
+.alt {
+  cursor: pointer;
+  color: black;
+  margin: 0 8px;
+  text-decoration: underline;
+}
+.alt:hover {
+  /* color: #048638; */
+}
+
+.button {
+  /* background-image: linear-gradient(315deg, #00d301, #36c275 50.5%, #00a562); */
+  color: #fff;
+  font-size: 1.3rem;
+  /* width: 58%; */
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  background: black;
+  margin-bottom: 20px;
+}
+.button:hover {
+  /* background-image: linear-gradient(315deg, #03ca03, #22b062 50.5%, #059058); */
+}
+
+.getLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .main {
+    height: 70vh;
+    width: 100vw;
+  }
+  .reg {
+    width: 300px;
+  }
+  .head1 {
+    font-size: 2rem;
+  }
+  input {
+    padding: 0.45rem 0.75rem;
+    width: 88%;
+    font-size: 0.8rem;
+    margin: 0 0 0.6rem;
+  }
+  .or {
+    margin: 0.5rem 0;
+    font-size: 14px;
+  }
+  .button {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.1rem 0;
+  }
+  .butup {
+    margin-top: 0.7rem;
+  }
+  .log {
+    padding: 2rem;
+  }
+}
+/*
+@media (max-width: 1100px) and (min-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .reg {
+    width: 400px;
+  }
+  .head1 {
+    font-size: 2.2rem;
+  }
+  input {
+    width: 90.5%;
+    margin: 0 0 0.9rem;
+  } */
+/* .button {
+    margin: 0;
+  }
+  .or {
+    margin: 0.8rem 0 0.5rem;
+    font-size: 16px;
+  }
+/* } */
+/* */

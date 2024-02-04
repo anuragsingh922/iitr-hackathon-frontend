@@ -1,0 +1,11 @@
+.particlesDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.particles {
+    margin: 20px 0 20px 0;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}

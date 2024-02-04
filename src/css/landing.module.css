@@ -1,0 +1,108 @@
+.main {
+  text-align: center;
+}
+
+.header {
+  margin: 60px 200px 0;
+  text-align: center;
+}
+
+.head1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+  margin: 0;
+}
+.span1 {
+  background: -webkit-linear-gradient(130deg, #00d301, #36c275 50.5%, #00a562);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.para {
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  margin: 5px;
+}
+
+.but {
+  /* background-image: linear-gradient(315deg, #00d301, #36c275 50.5%, #00a562); */
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0.7rem 0.5rem 0.7rem;
+  background: black;
+}
+.but:hover {
+  /* background-image: linear-gradient(315deg, #03ca03, #22b062 50.5%, #059058); */
+  /* background-color: #13e672; */
+}
+
+.talk {
+  text-decoration: none;
+  color: #fff;
+}
+
+.spectrum {
+  margin: 35px 0 0 0;
+  height: 240px;
+  width: 250px;
+}
+
+.particlesDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  margin: 20px 0 20px 0;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin: 60px 40px 0;
+  }
+
+  .head1 {
+    font-size: 40px;
+    margin: 65px 0 10px;
+  }
+
+  .para {
+    font-size: 16px;
+    margin: 7px 0;
+  }
+
+  .but {
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 820px) and (min-width: 480px) {
+  .header {
+    margin: 60px 80px 0;
+  }
+
+  .head1 {
+    font-size: 50px;
+    margin: 70px 0 10px;
+  }
+
+  .para {
+    font-size: 17px;
+    margin: 20px 0 20px;
+  }
+
+  .but {
+    padding: 8px 16px;
+  }
+}
